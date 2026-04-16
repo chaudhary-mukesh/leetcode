@@ -76,7 +76,7 @@ class ClosestEqualElementQueriesCircular {
             int rightDist = list.get(idx + 1) - list.get(idx);
             int leftDist  = list.get(idx) - list.get(idx - 1);
 
-            // Take minimum of both directions
+            // Take minimum of both directions 
             int dist = Math.min(rightDist, leftDist);
 
             result.add(dist);
