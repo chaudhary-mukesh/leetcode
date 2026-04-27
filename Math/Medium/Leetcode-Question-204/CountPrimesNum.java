@@ -37,9 +37,8 @@ public class CountPrimesNum {
         // Count how many numbers are still marked as prime
         int primeCount = 0;
         for (int number = 2; number < limit; number++) {
-            if (isPrimeArray[number]) {
+            if (isPrimeArray[number])
                 primeCount++;
-            }
         }
 
         // Return the total count of prime numbers
